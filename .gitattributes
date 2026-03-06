@@ -1,1 +1,4 @@
-
+git add .gitattributes
+git add fraudTest.csv
+git commit -m "Remove LFS tracking for dataset"
+git push
