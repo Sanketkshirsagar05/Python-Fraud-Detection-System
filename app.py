@@ -4,9 +4,7 @@ import joblib
 import os
 
 
-# ------------------------------------
 # Models folder path
-# ------------------------------------
 MODEL_PATH = "PKL Files"
 
 # ------------------------------------
@@ -131,3 +129,4 @@ if st.button("Predict Fraud"):
         st.error(f"⚠️ Fraudulent Transaction Detected | Probability: {probability:.2f}")
     else:
         st.success(f"✅ Legitimate Transaction | Fraud Probability: {probability:.2f}")
+
