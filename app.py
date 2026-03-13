@@ -3,13 +3,10 @@ import pandas as pd
 import joblib
 import os
 
-
 # Models folder path
 MODEL_PATH = "PKL Files"
 
-# ------------------------------------
 # Load Model and Scaler
-# ------------------------------------
 with open(os.path.join(MODEL_PATH, "fraud_model.pkl"), "rb") as f:
     model = joblib.load(f)
 
@@ -129,4 +126,5 @@ if st.button("Predict Fraud"):
         st.error(f"⚠️ Fraudulent Transaction Detected | Probability: {probability:.2f}")
     else:
         st.success(f"✅ Legitimate Transaction | Fraud Probability: {probability:.2f}")
+
 
