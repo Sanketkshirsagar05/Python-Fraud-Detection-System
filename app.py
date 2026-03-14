@@ -28,7 +28,7 @@ with open(os.path.join(MODEL_PATH, "state_encoder.pkl"), "rb") as f:
 with open(os.path.join(MODEL_PATH, "job_encoder.pkl"), "rb") as f:
     job_encoder = joblib.load(f)
 
-# App UI
+# UI
 st.title("💳 Credit Card Fraud Detection System")
 
 st.write("Enter transaction details manually to predict fraud.")
