@@ -118,7 +118,7 @@ if st.button("Predict Fraud"):
     # Scale input
     input_scaled = scaler.transform(input_data)
 
-    # Predict
+   
     prediction = model.predict(input_scaled)[0]
     probability = model.predict_proba(input_scaled)[0][1]
 
