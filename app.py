@@ -115,7 +115,7 @@ if st.button("Predict Fraud"):
 
     ])
 
-    # Scale input
+    
     input_scaled = scaler.transform(input_data)
 
    
