@@ -1,4 +1,4 @@
-# 💳 Credit Card Fraud Detection System
+# 💳 Fraud Detection System
 
 A Machine Learning project that detects **fraudulent credit card transactions** using transaction data, customer information, and location-based features. The model predicts whether a transaction is **fraudulent or legitimate** and is deployed using a **Streamlit web application**.
 
